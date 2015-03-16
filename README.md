@@ -16,4 +16,4 @@ jQuery `.append()` -> js `.insertAdjacentHTML(position, text)` https://developer
   * `beforeend` Just inside the element, after its last child.
   * `afterend` After the element itself.
 
-jQuery `.sibling()` -> js `.nextSibling`
+jQuery `.siblings()` -> js `.nextSibling`? `.nextElementSibling`?
