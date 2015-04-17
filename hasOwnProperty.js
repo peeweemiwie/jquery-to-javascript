@@ -61,6 +61,6 @@ var obj = {
     c: false
 };
 
-if ( var prop in obj ) {
+for ( var prop in obj ) {
     console.log( "Object1: " + prop );
 }
