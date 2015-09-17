@@ -17,3 +17,6 @@ jQuery `.append()` -> js `.insertAdjacentHTML(position, text)` https://developer
   * `afterend` After the element itself.
 
 jQuery `.siblings()` -> js `.nextSibling`? `.nextElementSibling`?
+
+Element.insertAdjacentHTML()
+https://developer.mozilla.org/en-US/docs/Web/API/Element/insertAdjacentHTML
