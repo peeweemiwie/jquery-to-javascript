@@ -35,14 +35,19 @@ https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore
 var insertedNode = parentNode.insertBefore(newNode, referenceNode);
 
   // Get a reference to the element in which we want to insert a new node
+  
   `var parentElement = document.getElementById('parentElement');`
+  
   // Get a reference to the first child
+  
   `var theFirstChild = parentElement.firstChild;`
 
   // Create a new element
+  
   `var newElement = document.createElement("div");`
 
   // Insert the new element before the first child
+  
  `parentElement.insertBefore(newElement, theFirstChild);`
 
 
